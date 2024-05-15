@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    
+   
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T</span>ravel</a> 
+    <nav class="navbar"><a href="#Home">Home</a>
+    <a  href="#book">Book</a> 
+   <a href="#packages">Packages</a>
+    <a  href="#services">Services<a>
+        <a  href="#gallery">Gallery</a>
+    <a href="#review">Review</a>
+    <a href="#contact">Contact</a></nav>
+<div class="icons" ><i  id="search-btn" class="fa fa-search"></i>
+    <i id="login-btn" class="fa fa-user"></i>
+</div>
+<form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here">
+    <label for="search-btn" class="fa fa-search"></label>
+</form>
+</header>
+
+<div class="login-form-container">
+    <i class="fas fa-time" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p> forget password? <a href="#">click here</a></p>
+        <p> don't have an account? <a href="#">register now</a></p>
+    </form>
+</div>
+<!-- home section -->
+<section class="Home" id="Home">
+    <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+     <div class="controls"> 
+         <span class="vid-btn active" data-src="70464-538463759_tiny.mp4"></span> 
+         <span class="vid-btn" data-src="vid2.mp4"></span> 
+         <span class="vid-btn" data-src="vid3.mp4"></span> 
+         <span class="vid-btn" data-src="vid4.mp4"></span> 
+         <span class="vid-btn" data-src="vid5.mp4"></span> 
+     </div> 
+     <div class="video-container"><video src="70464-538463759_tiny.mp4" id="video-slider" loop autoplay muted ></video></div> 
+</section> <section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+        
+    </h1>
+
+<div class="row">
+    <div class="image">
+        <img src="book.jpg" alt="">
+    </div>
+
+<form action="">
+<div class="inputBox">
+    <h3>where to</h3>
+    <input type="text" placeholder="place name">
+</div>
+<div class="inputBox"><h3> how many</h3>
+<input type="number" placeholder="number of guests"></div>
+<div class="inputBox"><h3> start</h3>
+    <input type="date"></div>
+    <div class="inputBox"><h3> leaving</h3>
+        <input type="date" ></div>
+        <input type="submit" class="btn" value="book now">
+</form></div></section>
+<!-- packages section starts -->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="mumbai.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+            <p>Mumbai, often dubbed as the "City of Dreams," pulsates with energy, diversity, and dynamism. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>      
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i> 
+            </div>
+            <div class="price">$90.00<span> $120.00</span></div>
+            <a href="#" class="btn">book now</a>
+        </div >
+    </div>
+    <div class="box">
+        <img src="london.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>london</h3>
+        <p>London, the capital city of the United Kingdom, is a timeless metropolis that seamlessly blends history with modernity.  </p>
+        <div class="stars">
+            <i class="fas fa-star"></i>      
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+        </div>
+        <div class="price">$120.00<span> $160.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div >
+</div>
+<div class="box">
+    <img src="dubai.jpeg" alt="">
+<div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i>dubai</h3>
+    <p>Dubai, the glittering gem of the United Arab Emirates (UAE), is a city of superlatives where innovation meets luxury in a desert oasis.   </p>
+    <div class="stars">
+        <i class="fas fa-star"></i>      
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+    </div>
+    <div class="price">$60.00<span> $90.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div >
+</div>
+<div class="box">
+    <img src="australia.webp" alt="">
+<div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i>Australia</h3>
+    <p>Australia, the world's sixth-largest country, is a land of stunning contrasts, from its vast outback expanses to its vibrant coastal cities. </p>
+    <div class="stars">
+        <i class="fas fa-star"></i>      
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+    </div>
+    <div class="price">$150.00<span> $170.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div >
+</div>
+<div class="box">
+    <img src="paris.jpeg" alt="">
+<div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i>Paris</h3>
+    <p>Paris, often referred to as the "City of Light," exudes an unparalleled charm and elegance, captivating visitors with its romantic ambiance, rich history, and artistic allure.  </p>
+    <div class="stars">
+        <i class="fas fa-star"></i>      
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+    </div>
+    <div class="price">$140.00<span> $180.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div >
+</div>
+<div class="box">
+    <img src="tokyo.jpg" alt="">
+<div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i>Tokyo</h3>
+    <p>Tokyo, the bustling capital of Japan, is a mesmerizing blend of ancient traditions and cutting-edge technology, offering visitors a glimpse into the past while propelling them into the future.  </p>
+    <div class="stars">
+        <i class="fas fa-star"></i>      
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+    </div>
+    <div class="price">$160.00<span> $190.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div >
+</div>
+
+
+</div>
+</section>
+<!-- packages section ends -->
+<!-- services sections starts -->
+<section class="services" id="services">
+    <h1 class="heading"><span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span></h1>
+    <div class="box-container">
+    <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>Step into a world of refined elegance with our meticulously designed rooms and suites, each offering a harmonious blend of contemporary style and timeless sophistication. Sink into plush bedding, unwind in spacious living areas, and admire breathtaking views</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>Elevate your dining experience to new heights,where every bite is a symphony of flavors and every sip a celebration of craftsmanship. </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safty guides</h3>
+        <p>We are committed to providing a secure and comfortable environment for all our visitors, ensuring peace of mind throughout your stay. Here's how we're dedicated to safeguarding your experience:
+
+            Enhanced Cleaning Protocols,Contactless Check-In/Check-Out,Personal Protective Equipment (PPE),Health Screening Measures</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p>we believe that the world is meant to be explored, and we're here to make your travel dreams a reality. Whether you're seeking adventure, relaxation, or cultural immersion, our expert team is dedicated to curating unforgettable experiences tailored to your unique preferences. </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>we understand that time is of the essence, which is why we specialize in offering the fastest travel options for the modern adventurer. Whether you're a business traveler with a tight schedule or a thrill-seeker craving adrenaline-fueled experiences, we'll get you to your destination in record time.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventures</h3>
+        <p>Are you ready to unleash your inner explorer and embark on the adventure of a lifetime?,we specialize in curating exhilarating and unforgettable adventures that will ignite your sense of wanderlust and leave you craving for more. </p>
+    </div>
+
+    </div>
+</section>
+<!-- services section ends -->
+<!-- gallery section starts -->
+<section class="gallery " id="gallery">
+<h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+</h1>
+<div class="box-container">
+    <div class="box">
+        <img src="gall1.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>As they journey toward the horizon, rivers embody the eternal rhythm of nature, </p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall2.webp" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>wander through picturesque neighborhoods filled with history and culture.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall3.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Explore scenic hiking trails, go wildlife spotting, or embark on a scenic drive </p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall4.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>from the iconic Eiffel Tower to the charming streets of Montmartre, every corner of this city exudes an air of sophistication and charm.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="gall5.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>from the iconic Eiffel Tower to the charming streets of Montmartre, every corner of this city exudes an air of sophistication and charm.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall6.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p> Indulge in world-class cuisine, explore world-famous museums like the Louvre, and wander through picturesque neighborhoods filled with history and culture.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall7.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Along their banks, life flourishes in abundance, as lush forests, verdant meadows, and vibrant wetlands thrive in the fertile embrace of their waters. </p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall8.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>As they journey toward the horizon, rivers embody the eternal rhythm of nature, a reminder of the interconnectedness of all living things. </p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="gall9.webp" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Whether you're seeking a heart-pounding trek through rugged landscapes or a cultural immersion in remote villages.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+</div>
+</section>
+<!-- gallery section ends -->
+<!-- review section starts -->
+<section class="review" id="review">
+    <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+</h1>
+<div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+<div class="swiper-slide">
+    <div class="box">
+        <img src="review1.jpeg" alt="">
+        <h3>john deo</h3>
+        <p>I had an amazing experience booking my recent vacation through Adventure Seekers Travel. From start to finish, their team was incredibly helpful and knowledgeable. They helped me find the perfect destination, arranged all the details, and even provided valuable tips for things to do and see while I was there. Thanks to Adventure Seekers, I had the trip of a lifetime!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>      
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+        </div>
+    </div></div>
+
+    <div class="swiper-slide">
+    <div class="box">
+        <img src="review2.jpeg" alt="">
+        <h3>messy</h3>
+        <p>I can't say enough good things about Adventure Seekers Travel! Their attention to detail and commitment to customer satisfaction are truly exceptional. I recently booked a group tour through them, and everything went off without a hitch. The accommodations were top-notch, the itinerary was well-planned, and our tour guide was fantastic. I'll definitely be booking with Adventure Seekers again in the future!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>      
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+        </div>
+    </div></div>
+
+    <div class="swiper-slide">
+    <div class="box">
+        <img src="review3.jpeg" alt="">
+        <h3>sofia petrova</h3>
+        <p>Adventure Seekers Travel exceeded all my expectations! I booked a solo trip through them, and they took care of everything, from flights to accommodations to activities. Their team listened to my preferences and tailored the trip to suit my interests perfectly. I felt safe and supported throughout my journey, and I returned home with unforgettable memories. I highly recommend Adventure Seekers to anyone looking for a hassle-free travel experience.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>      
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+        </div>
+    </div></div>
+
+    <div class="swiper-slide">
+    <div class="box">
+        <img src="review4.jpeg" alt="">
+        <h3>Mateo Gonzalez</h3>
+        <p>My family and I had an incredible vacation thanks to Adventure Seekers Travel. We booked a multi-destination trip through them, and every aspect of the journey was seamless. The accommodations were family-friendly, the transportation was comfortable, and the activities were engaging for both kids and adults. Adventure Seekers made sure we had everything we needed to make lasting memories together. We're already planning our next adventure with them!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>      
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+            <i class="fas fa-star"></i> 
+        </div>
+    </div></div>
+</div>
+    </div>
+
+</section>
+<!-- review section ends -->
+<!-- contact section starts -->
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+<div class="row">
+    <div class="image">
+        <img src="contact.jpg" alt="">
+    </div>
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn"  value="send message">
+    </form>
+</div>
+</section>
+
+<!-- footer section -->
+<div class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p> Personalized Travel Planning: Say goodbye to cookie-cutter vacations! Our team of expert travel advisors takes the time to understand your unique preferences, Handpicked Destinations: Explore the world's most enchanting destinations with confidence, knowing that we've meticulously curated a collection of top-notch resorts, charming boutique hotels, and hidden gems just for you.</p>
+        </div>
+        <div class="box">
+            <h3>brand location</h3>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+            <a href="#">australia</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+            
+        </div>
+        </div>
+        <h1 class="credit"> created by <span>Aisha arain</span>! all right reserved</h1>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+</script>
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+    var swiper= new Swiper(".review-slider",{
+    spaceBetween:20, 
+    loop:true,
+    autoplay:{
+        delay:2500, disableOnInteraction:false,
+    },
+    breakpoints:{
+        640:{
+            slidesPerView:1,},
+            768:{
+               slidesPerView:2,
+            },
+            1024:{
+                slidesPerView:3,
+            },
+        },
+
+});
+   </script>
+
+
+
+</html>
